@@ -1,0 +1,79 @@
+
+    /* Organização padrão para todo site */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    /* Ajustando o tamanho da logo no menu*/
+
+.container{
+    padding: 0;
+    margin: 0;
+}
+
+.nomedosite{
+    width: 120px;
+}
+
+    /* Ajustando o título inicial e parágrafo*/
+
+.t1inicial,.t1receitas{
+    color: rgb(251, 101, 8);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1incial{
+    color: rgb(26, 25, 25); 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    /* Ajustando o tamanho da imagem inicial*/
+
+.fotopizza{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+}
+
+.card{
+    width: 300px;
+    padding: 0;
+    margin-left: 50%;
+}
+
+    /*Ajustando o tamanho da foto redonda e configurações*/
+
+.fotoredonda{
+    display: flex;
+    margin-left: 20%;
+}
+
+.fotoredonda1{
+    padding: 0;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+    box-shadow: 1px 1px 10px 1px rgb(251, 101, 8);
+}
+
+.textfotoredonda{
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(26, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+    /*Links sem linha azul*/
+
+a:link{
+    text-decoration: none;
+}
+ 
+
